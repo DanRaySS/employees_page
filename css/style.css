@@ -576,8 +576,7 @@ a {
 }
 
 .dropdown-menu {
-    background-color: red;
-    /* var(--white-color) */
+    background-color: var(--white-color);
     position: absolute;
     width: 180px;
     height: 224px;
