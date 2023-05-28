@@ -219,7 +219,7 @@ a {
 }
 
 .tab-title::after {
-    content: url(./img/icon-tab.svg);
+    content: url(../img/icon-tab.svg);
 }
 
 /* .tab-project_content {
@@ -235,7 +235,7 @@ a {
 }
 
 .info_list-tab :checked+.tab-title::after {
-    content: url(./img/icon-tab_blue-verison.svg);
+    content: url(../img/icon-tab_blue-verison.svg);
 }
 
 .info_list-tab :checked~.tab-content {
@@ -265,7 +265,7 @@ a {
 
 .name_of_project::before {
     margin-right: 12px;
-    content: url(./img/icon_empty-square.svg);
+    content: url(../img/icon_empty-square.svg);
 }
 
 .tab-text_from {
@@ -295,7 +295,7 @@ a {
 }
 
 .tab-project_content_item :checked+.name_of_project::before {
-    content: url(./img/icon_blue-square.svg);
+    content: url(../img/icon_blue-square.svg);
 }
 
 /* .project_tradedealer {
@@ -576,7 +576,8 @@ a {
 }
 
 .dropdown-menu {
-    background-color: var(--white-color);
+    background-color: red;
+    /* var(--white-color) */
     position: absolute;
     width: 180px;
     height: 224px;
@@ -623,13 +624,13 @@ a {
     width: 20px;
     height: 20px;
     margin-right: 12px;
-    content: url(./img/empty_circle.svg);
+    content: url(../img/empty_circle.svg);
 }
 
 .dropdown-menu_item :checked+.sort-item_text::before {
     width: 20px;
     height: 20px;
-    content: url(./img/blue_circle.svg);
+    content: url(../img/blue_circle.svg);
 }
 
 .sort-panel {
@@ -644,7 +645,7 @@ a {
 }
 
 .sort-panel::after {
-    content: url(./img/line-icon.svg);
+    content: url(../img/line-icon.svg);
     height: 19px;
     display: flex;
     align-items: center;
@@ -840,7 +841,7 @@ a {
     border-radius: 4px;
     padding: 12px 0;
     display: none;
-    z-index: 999;
+    z-index: 0;
 }
 
 .settings-item_click {
