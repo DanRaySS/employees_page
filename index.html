@@ -21,13 +21,13 @@
         <div class="header-container">
             <div class="header-line">
                 <div class="header-left-container">
-                    <a href="#" class="link">
+                    <a tabindex="-1" href="#">
                         <h1 class="header-name">PManag</h1>
                     </a>
                 </div>
                 <ul class="header-right-container">
                     <li class="settings">
-                        <a href="#">
+                        <a tabindex="-2" href="#">
                             <svg transform="translate(0,2)" fill="#475569" width="26" height="26" viewBox="0 0 26 26"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -37,7 +37,7 @@
                         </a>
                     </li>
                     <li class="quit">
-                        <a href="#" class="quit-link">
+                        <a tabindex="-3" href="#">
                             <svg transform="translate(0,2)" width="24" height="26" fill="#475569" viewBox="0 0 24 26"
                                 fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -116,17 +116,17 @@
                         </ul>
                         <ul class="configuration-list">
                             <li class="save-item">
-                                <button class="btn btn-save">Применить</button>
+                                <button tabindex="1" class="btn btn-save">Применить</button>
                             </li>
                             <li class="reset-item">
-                                <button class="btn btn-reset">Сбросить</button>
+                                <button tabindex="2" class="btn btn-reset">Сбросить</button>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="main-right">
                     <div class="middle-panel">
-                        <button class="btn btn-add">Добавить сотрудника</button>
+                        <button tabindex="3" class="btn btn-add">Добавить сотрудника</button>
                         <div class="search-form">
                             <input class="search-panel" placeholder="Поиск" type="text">
                             <svg class="search-svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -137,8 +137,10 @@
                             </svg>
                         </div>
                         <div class="burger-container">
-                            <div class="sort-panel"> <a href="#">Сортировка по:&nbsp
-                                    <span class="sort_panel_salary">Зарплате ▲</span></a>
+                            <div class="sort-panel">
+                                <a href="" onclick="return false;">Сортировка по:&nbsp
+                                    <span class="sort_panel_salary">Зарплате ▲</span>
+                                </a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-menu_item">
                                         <input type="checkbox" id="alph">
@@ -766,12 +768,12 @@
                     <li class="footer-item footer-digit"><span class="footer-item_text">3</span></li>
                 </a>
                 <a href="#" class="footer-link">
-                    <li class="footer-item"><span class="footer-item_text">...</span></li>
+                    <li class="footer_item_more"><span class="footer-item_text">...</span></li>
                 </a>
                 <a href="#" class="footer-link">
                     <li class="footer-item footer-digit"><span class="footer-item_text">6</span></li>
                 </a>
-                <a href="#" class="footer-link">
+                <a href="#">
                     <li class="footer-item"><svg width="9" height="14" viewBox="0 0 9 14" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill="#475569" fill-rule="evenodd" clip-rule="evenodd"

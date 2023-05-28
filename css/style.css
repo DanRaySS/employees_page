@@ -39,7 +39,7 @@ input[type="reset"] {
 
 a {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 }
 
 :root {
@@ -381,6 +381,11 @@ a {
     transition: background 0.1s linear, border-color 0.1s linear;
 }
 
+.btn-save:focus {
+    background: var(--blue-color);
+    border-color: var(--blue-color);
+}
+
 .btn-save:hover {
     background: var(--blue-color);
     border-color: var(--blue-color);
@@ -398,6 +403,11 @@ a {
 }
 
 .btn-reset:hover {
+    color: var(--blue-color);
+    border-color: var(--blue-color);
+}
+
+.btn-reset:focus {
     color: var(--blue-color);
     border-color: var(--blue-color);
 }
@@ -426,6 +436,11 @@ a {
 }
 
 .btn-add:hover {
+    background: var(--blue-color);
+    border-color: var(--blue-color);
+}
+
+.btn-add:focus {
     background: var(--blue-color);
     border-color: var(--blue-color);
 }
@@ -590,6 +605,10 @@ a {
 }
 
 .burger-container:focus-within .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu:hover {
     display: block;
 }
 
@@ -924,7 +943,7 @@ a {
     color: var(--blue-dark-color);
 }
 
-.graphic-click:hover .info_about_qualif{
+.graphic-click:hover .info_about_qualif {
     display: block;
 }
 
@@ -982,8 +1001,27 @@ a {
     background: var(--blue-color);
 }
 
+.footer-link:focus .footer-item {
+    color: var(--white-color);
+    background: var(--blue-color);
+}
+
 .footer-digit:hover span {
     color: var(--white-color);
+}
+
+.footer-link:focus .footer-digit span {
+    color: var(--white-color);
+}
+
+.footer_item_more {
+    width: 40px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
 }
 
 .footer-item2 {
